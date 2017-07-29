@@ -1,0 +1,328 @@
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+header {
+  font-family: "vollkorn";
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  height: 46px;
+}
+
+ul.topNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222B4E;
+}
+
+ul.topNav li {
+  float: left;
+}
+
+ul.topNav li a {
+  display: inline-block;
+  color: #9498AB;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 21px;
+}
+
+ul.topNav li a:hover {
+  background-color: #373F5E;
+}
+
+header h2 {
+  color: #9498AB;
+  float: right;
+  margin-right: 30px;
+  margin-top: 8px;
+}
+
+#content {
+  font-family: "vollkorn";
+  z-index: 2;
+  overflow: hidden;
+}
+
+#about {
+  background-color: #4E5676;
+  padding-top: 46px;
+  display: block;
+  text-align: center;
+}
+
+#about p {
+  color: #9498AB;
+  padding: 30px;
+  font-size: 2vw;
+  text-align: justify;
+}
+
+#about p a {
+  color: #222B4E;
+}
+
+#picOfMe {
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 50%;
+  filter: grayscale(40%);
+}
+
+#portfolio {
+  background-color: #373F5E;
+  text-align: center;
+}
+
+#portfolio h1 {
+  color: #9498AB;
+  padding-top: 8px;
+}
+
+#portfolioImage {
+  padding: 20px;
+  max-width: 45%;
+  border-radius: 42px;
+}
+
+#portfolioImage:hover {
+  transform: scale(1.25);
+  transition: transform 0.37s ease-in-out;
+}
+
+#comingSoon {
+  padding: 20px;
+  max-width: 45%;
+  border-radius: 42px;
+}
+
+#contact {
+  background-color: #4E5676;
+}
+
+#contact h1 {
+  color: #9498AB;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#contact h4 {
+  color: #9498AB;
+  padding-left: 26px;
+}
+
+#form {
+  padding: 0px 20px 20px 40px;
+  max-width: 100%;
+}
+
+#messageBox {
+  height: 200px;
+}
+
+input[type=submit] {
+  border-color: #373F5E;
+  background-color: #222B4E;
+  color: #9498AB;
+  border-radius: 23px;
+  margin-left: -13px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.7;
+  transform: scale(1.25);
+  transition: transform 0.37s ease-in-out;
+}
+
+#contact p {
+  color: #9498AB;
+  padding: 10px;
+  font-size: 2vw;
+  text-align: justify;
+}
+
+#mediaButtons {
+  text-align: center;
+  padding: 10px;
+}
+
+#mediaButtons a {
+  margin: 10px;
+}
+
+.fa {
+  padding: 17.4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transform: scale(1.25);
+  transition: transform 0.37s ease-in-out;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e95950;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+footer {
+  font-family: "vollkorn";
+  background-color: #222B4E;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+footer h1 {
+  color: #9498AB;
+  font-size: 17px;
+  padding: 31.5px;
+}
+
+footer .fa {
+  padding: 0;
+  text-align: left;
+}
+
+footer .fa:hover {
+  transform: scale(1.75);
+  transition: transform 0.37s ease-in-out;
+}
+
+.fa-html5 {
+  width: 18px;
+}
+
+.fa-css3 {
+  width: 21px;
+}
+
+.fa-free-code-camp {
+  width: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+
+  #comingSoon {
+  padding: 20px;
+  max-width: 90%;
+  border-radius: 42px;
+}
+
+  #portfolioImage {
+  padding: 20px;
+  max-width: 90%;
+  border-radius: 42px;
+}
+
+  #about p {
+    font-size: 3vw;
+    padding-right: 0px;
+  }
+
+  #contact p {
+    font-size: 3vw;
+  }
+
+  #mediaButtons {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  #mediaButtons a {
+    margin: 5px;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+  #about p {
+    font-size: 5vw;
+    padding: 15px;
+  }
+
+  #picOfMe {
+    display: none;
+  }
+
+  #contact p {
+    padding: 15px 15px 0px 15px;
+    font-size: 5vw;
+  }
+
+  #form {
+    padding: 0px 40px 20px 40px;
+  }
+
+  #mediaButtons {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  #mediaButtons a {
+    margin: 5px;
+  }
+
+  footer h1 {
+    padding: 31.5px 0px 31.5px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 455px) {
+
+  ul.topNav li {
+  display: none;
+}
+
+  header {
+    text-align: center;
+}
+
+  header h2 {
+  float: none;
+  margin-right: 0px;
+}
+
+  #portfolioImage {
+    padding: 5px;
+  }
+
+  #comingSoon {
+    padding: 5px;
+  }
+
+}
