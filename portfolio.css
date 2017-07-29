@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -5,7 +7,7 @@
 }
 
 header {
-  font-family: "vollkorn";
+  font-family: "Comfortaa";
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -47,7 +49,7 @@ header h2 {
 }
 
 #content {
-  font-family: "vollkorn";
+  font-family: "Comfortaa";
   z-index: 2;
   overflow: hidden;
 }
@@ -78,18 +80,19 @@ header h2 {
 }
 
 #portfolio {
+  margin-top: -20px;
   background-color: #373F5E;
   text-align: center;
 }
 
 #portfolio h1 {
   color: #9498AB;
-  padding-top: 8px;
+  padding-top: 10px;
 }
 
 #portfolioImage {
   padding: 20px;
-  max-width: 45%;
+  //max-width: 45%;
   border-radius: 42px;
 }
 
@@ -100,18 +103,19 @@ header h2 {
 
 #comingSoon {
   padding: 20px;
-  max-width: 45%;
+  //max-width: 45%;
   border-radius: 42px;
 }
 
 #contact {
+  margin-top: -20px;
   background-color: #4E5676;
 }
 
 #contact h1 {
   color: #9498AB;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 10px;
 }
 
 #contact h4 {
@@ -197,7 +201,7 @@ input[type=submit]:hover {
 }
 
 footer {
-  font-family: "vollkorn";
+  font-family: "Comfortaa";
   background-color: #222B4E;
   width: 100%;
   height: 80px;
